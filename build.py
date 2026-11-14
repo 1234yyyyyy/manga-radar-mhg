@@ -6,7 +6,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
 DATA = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
-DATE = "2026-11-13"
+DATE = "2026-11-14"
 N = len(DATA)
 e = html.escape
 
